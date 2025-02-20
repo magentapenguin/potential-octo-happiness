@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --font-rounded: "Rubik Mono One", sans-serif;
+    --text-spacing-2xs: -0.1em;
+    --text-spacing-xs: -0.05em;
+    --text-spacing-sm: -0.025em;
+    --text-spacing-md: 0em;
+    --text-spacing-lg: 0.025em;
+    --text-spacing-xl: 0.05em;
+}
+
+@utility letter-spacing-* {
+    letter-spacing: --value(--text-spacing-*);
+}
+@utility line-height-* {
+    line-height: --value(--text-spacing-*);
+}
+
+@layer components {
+    *, *::before, *::after {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .card {
+        @apply border border-gray-300 dark:border-gray-900 rounded-lg p-4 text-center shadow-neutral-800 dark:shadow-black shadow-sm h-auto;
+    }
+    .card .card-title {
+        @apply text-6xl font-bold mb-2 letter-spacing-xs;
+    }
+    .card .card-title:has(+ .card-subtitle) {
+        @apply -mb-2;
+    }
+    .card .card-subtitle {
+        @apply text-4xl font-light letter-spacing-2xs text-gray-700 dark:text-gray-300 font-rounded;
+    }
+}

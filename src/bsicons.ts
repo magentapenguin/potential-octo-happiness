@@ -7,9 +7,9 @@ export default class BootstrapIcon extends HTMLElement {
     connectedCallback() {
         const name = this.getAttribute('name');
         const size = this.getAttribute('size') ?? '1em';
-
+        const base = import.meta.env.BASE_URL;
         // load the icon from '/icons' folder
-        fetch(`/icons/${name}.svg`, {
+        fetch(`${base}icons/${name}.svg`, {
             cache: 'force-cache'
         })
             .then(response => {

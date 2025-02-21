@@ -1,31 +1,73 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-white dark:bg-gray-950 text-gray-900 dark:text-white">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/src/styles.css">
-    </head>
-    <body>
-        <!-- Infographic about sleep-->
-        <main class="container p-2 mx-auto flex flex-row gap-4">
-            <div class="flex flex-col gap-2">
-                <div class="card">
-                    <h1 class="card-title"><!-- Write later-->100%</h1>
-                    <h3 class="card-subtitle"><!-- Write later-->more</h3>
-                    <p class="text-gray-500 dark:text-gray-400"><!-- Write later-->Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut sapien nec odio.</p>
+<html lang="en" class="bg-white dark:bg-gray-950 text-gray-900 dark:text-white h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles.tailwind.css">
+    <script src="/src/bsicons.ts" type="module"></script>
+    <meta name="color-scheme" content="light dark">
+</head>
+
+<body class="h-100">
+    <!-- Infographic about sleep-->
+    <main class="container p-2 m-2 mx-auto flex flex-row gap-4 not-md:gap-2 h-max not-md:flex-col">
+        <div class="flex flex-col gap-2 h-max items-stretch">
+            <div class="card">
+                <h1 class="card-title">Sleep is important!</h1>
+                <h3 class="card-subtitle">You need at least 7-9 hours of it!</h3>
+                <div class="card-content">
+                    Children need more sleep than adults. The amount of sleep you need depends on your age.
+                    <details>
+                        <summary class="cursor-pointer">More info</summary>
+                        <ul class="list-disc text-left">
+                            <li>Infants need about 14-17 hours of sleep per day.</li>
+                            <li>Teenagers need about 8-10 hours of sleep per day.</li>
+                            <li>Adults need about 7-9 hours of sleep per day.</li>
+                        </ul>
+                    </details>
                 </div>
+                <a href="https://www.nhlbi.nih.gov/health/sleep/how-much-sleep" class="card-link icon-link" target="_blank">Learn more <bs-icon name="arrow-right-short" size="1.5em"></bs-icon></a>
             </div>
-            <div class="flex flex-col gap-2">
-                <div class="card">
-                    <h1 class="card-title"><!-- Write later-->Lorem Ipsum</h1>
-                    <p class="text-gray-500 dark:text-gray-400"><!-- Write later-->Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut sapien nec odio.</p>
-                </div>
-                <div class="card">
-                    <h1 class="card-title"><!-- Write later-->Lorem</h1>
-                    <h3 class="card-subtitle"><!-- Write later-->Ipsum</h3>
-                    <p class="text-gray-500 dark:text-gray-400"><!-- Write later-->Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut sapien nec odio.</p>
-                </div>
+            <div class="card">
+                <h1 class="card-title">If you don't sleep enough</h1>
+                <h3 class="card-subtitle">(Chronic poor sleep)</h3>
+                <p class="card-content">
+                    Then you could get dementia, heart disease, type 2 diabetes, obesity and certain cancers.
+                </p>
+                <a href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/health-risks-of-poor-sleep" class="card-link icon-link" target="_blank">Learn more <bs-icon name="arrow-right-short" size="1.5em"></bs-icon></a>
             </div>
-        </main>
-    </body>
+        </div>
+        <div class="flex flex-col gap-2 h-max">
+            <div class="card">
+                <h1 class="card-title">How do good sleep?</h1>
+                <h3 class="card-subtitle">Three tips on getting good sleep</h3>
+                <div class="card-content p-5">
+                    <ol class="list-decimal text-left">
+                        <li class="line-height-lg">
+                            Don't take naps in the afternoon.
+                        </li>
+                        <li class="line-height-lg">
+                            Avoid screens and electronic devices near bedtime.
+                        </li>
+                        <li class="line-height-lg">
+                            Avoid Caffeine.<br>
+                            <small class="text-sm text-gray-600 dark:text-gray-400">Caffeine can take 6-8 hours to wear off completely.</small>
+                        </li>
+                    </ol>
+                </div>
+                <a href="https://newsinhealth.nih.gov/2021/04/good-sleep-good-health" class="card-link icon-link" target="_blank">Learn more <bs-icon name="arrow-right-short" size="1.5em"></bs-icon></a>
+            </div>
+            <div class="card">
+                <h1 class="card-title"><!-- Write later-->Lorem</h1>
+                <h3 class="card-subtitle"><!-- Write later-->Ipsum</h3>
+                <p class="card-content"><!-- Write later-->Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Sed ut sapien nec odio.</p>
+                <a href="https://wikipedia.org/wiki/Lorem_ipsum" class="card-link icon-link"
+                    target="_blank"><!-- Write later-->Learn more <bs-icon name="arrow-right-short" size="1.5em"></bs-icon></a>
+            </div>
+        </div>
+    </main>
+</body>
+
 </html>

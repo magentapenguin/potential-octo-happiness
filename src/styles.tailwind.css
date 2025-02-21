@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -9,13 +10,14 @@
     --text-spacing-md: 0em;
     --text-spacing-lg: 0.025em;
     --text-spacing-xl: 0.05em;
+    --default-font-family: "Inter", sans-serif;
 }
 
 @utility letter-spacing-* {
     letter-spacing: --value(--text-spacing-*);
 }
 @utility line-height-* {
-    line-height: --value(--text-spacing-*);
+    line-height: calc(--value(--text-spacing-*) * 10 + 1em);
 }
 
 @layer components {
@@ -24,15 +26,59 @@
         -moz-osx-font-smoothing: grayscale;
     }
     .card {
-        @apply border border-gray-300 dark:border-gray-900 rounded-lg p-4 text-center shadow-neutral-800 dark:shadow-black shadow-sm h-auto;
+        @apply border border-gray-300 dark:border-gray-900 rounded-lg p-4 text-center h-auto flex-auto flex flex-col;
+        background: linear-gradient(15deg, var(--color-gray-100), transparent);
+        box-shadow: 0 0 0 2px rgb(from var(--color-gray-400) r g b / 0.2);
+        cursor: default;
+        position: relative;
+        @variant hover {
+            background: linear-gradient(15deg, var(--color-gray-200), transparent);
+            box-shadow: 0 0 0 2px rgb(from var(--color-gray-500) r g b / 0.2);
+        }
+        @variant dark {
+            background: linear-gradient(15deg, var(--color-gray-900), transparent);
+            box-shadow: 0 0 0 2px rgb(from var(--color-gray-800) r g b / 0.2);
+            @variant hover {
+                background: linear-gradient(15deg, var(--color-gray-800), transparent);
+                box-shadow: 0 0 0 2px rgb(from var(--color-gray-700) r g b / 0.2);
+            }
+        }
     }
     .card .card-title {
-        @apply text-6xl font-bold mb-2 letter-spacing-xs;
+        @apply text-6xl font-bold pb-2 mb-1 letter-spacing-xs overflow-hidden;
     }
-    .card .card-title:has(+ .card-subtitle) {
-        @apply -mb-2;
+    .card .card-title:has(+ .card-subtitle:not(:empty)) {
+        @apply -mb-1;
     }
     .card .card-subtitle {
-        @apply text-4xl font-light letter-spacing-2xs text-gray-700 dark:text-gray-300 font-rounded;
+        @apply text-4xl font-black letter-spacing-sm text-gray-700 dark:text-gray-300;
+    }
+    .card .card-content {
+        @apply text-lg font-medium text-gray-700 dark:text-gray-300 flex-auto;
+    }
+    .card .card-link {
+        @apply text-lg font-medium text-blue-500 dark:text-blue-400 hover:text-blue-600 dark:hover:text-blue-300;
+        position: absolute;
+        bottom: var(--spacing);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .card:has(.card-link) {
+        padding-bottom: calc(var(--spacing) * 8);
+    }
+    bs-icon {
+        @apply inline-block;
+    }
+    bs-icon svg {
+        width: 1em;
+        height: 1em;
+    }
+    .icon-link {
+        @apply flex flex-row gap-1 items-center transition-all hover:gap-2;
+        transition-property: gap;
+    }
+    ::selection {
+        background-color: var(--color-blue-500);
+        color: var(--color-white);
     }
 }

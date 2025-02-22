@@ -5,7 +5,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@originjs/vite-plugin-content": "^1.0.0",
+    "@originjs/vite-plugin-content": "^1.0.5",
     "@tailwindcss/vite": "^4.0.7",
     "chart.js": "^4.4.8",
     "chartjs-chart-geo": "^4.3.4",

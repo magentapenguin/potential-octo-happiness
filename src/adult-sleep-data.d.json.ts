@@ -5,4 +5,5 @@ export interface SleepData {
     Quartile: string;
 }
 
-export default SleepData[];
+declare const sleepData: SleepData[];
+export default sleepData;

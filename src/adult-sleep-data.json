@@ -1,0 +1,320 @@
+[
+	{
+		"State": "Alabama",
+		"Age-Adjusted Prevalence (%)": "41.4",
+		"95% Confidence Interval": "39.2 - 43.6",
+		"Quartile": "38.9 - 50.2"
+	},
+	{
+		"State": "Alaska",
+		"Age-Adjusted Prevalence (%)": "37.6",
+		"95% Confidence Interval": "35.8 - 39.4",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "Arizona",
+		"Age-Adjusted Prevalence (%)": "36.1",
+		"95% Confidence Interval": "34.4 - 37.8",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "Arkansas",
+		"Age-Adjusted Prevalence (%)": "39.9",
+		"95% Confidence Interval": "38.0 - 41.8",
+		"Quartile": "38.9 - 50.2"
+	},
+	{
+		"State": "California",
+		"Age-Adjusted Prevalence (%)": "35.2",
+		"95% Confidence Interval": "33.8 - 36.5",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "Colorado",
+		"Age-Adjusted Prevalence (%)": "30.6",
+		"95% Confidence Interval": "29.4 - 31.8",
+		"Quartile": "30.0 - 33.4"
+	},
+	{
+		"State": "Connecticut",
+		"Age-Adjusted Prevalence (%)": "36.4",
+		"95% Confidence Interval": "34.9 - 37.9",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "Delaware",
+		"Age-Adjusted Prevalence (%)": "37.3",
+		"95% Confidence Interval": "35.0 - 39.6",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "District of Columbia",
+		"Age-Adjusted Prevalence (%)": "31.8",
+		"95% Confidence Interval": "29.7 - 34.0",
+		"Quartile": "30.0 - 33.4"
+	},
+	{
+		"State": "Florida",
+		"Age-Adjusted Prevalence (%)": "38.8",
+		"95% Confidence Interval": "37.0 - 40.8",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "Georgia",
+		"Age-Adjusted Prevalence (%)": "38.8",
+		"95% Confidence Interval": "37.2 - 40.4",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "Hawaii",
+		"Age-Adjusted Prevalence (%)": "45.9",
+		"95% Confidence Interval": "44.2 - 47.6",
+		"Quartile": "38.9 - 50.2"
+	},
+	{
+		"State": "Idaho",
+		"Age-Adjusted Prevalence (%)": "33.2",
+		"95% Confidence Interval": "31.8 - 34.7",
+		"Quartile": "30.0 - 33.4"
+	},
+	{
+		"State": "Illinois",
+		"Age-Adjusted Prevalence (%)": "36.7",
+		"95% Confidence Interval": "34.8 - 38.7",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "Indiana",
+		"Age-Adjusted Prevalence (%)": "38.6",
+		"95% Confidence Interval": "37.4 - 39.9",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "Iowa",
+		"Age-Adjusted Prevalence (%)": "34.2",
+		"95% Confidence Interval": "32.8 - 35.6",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "Kansas",
+		"Age-Adjusted Prevalence (%)": "36.7",
+		"95% Confidence Interval": "35.3 - 38.0",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "Kentucky",
+		"Age-Adjusted Prevalence (%)": "39.6",
+		"95% Confidence Interval": "37.5 - 41.9",
+		"Quartile": "38.9 - 50.2"
+	},
+	{
+		"State": "Louisiana",
+		"Age-Adjusted Prevalence (%)": "40.5",
+		"95% Confidence Interval": "38.7 - 42.3",
+		"Quartile": "38.9 - 50.2"
+	},
+	{
+		"State": "Maine",
+		"Age-Adjusted Prevalence (%)": "33.4",
+		"95% Confidence Interval": "31.9 - 34.9",
+		"Quartile": "30.0 - 33.4"
+	},
+	{
+		"State": "Maryland",
+		"Age-Adjusted Prevalence (%)": "38.7",
+		"95% Confidence Interval": "37.5 - 40.0",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "Massachusetts",
+		"Age-Adjusted Prevalence (%)": "33.2",
+		"95% Confidence Interval": "31.9 - 34.5",
+		"Quartile": "30.0 - 33.4"
+	},
+	{
+		"State": "Michigan",
+		"Age-Adjusted Prevalence (%)": "36.4",
+		"95% Confidence Interval": "35.0 - 37.7",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "Minnesota",
+		"Age-Adjusted Prevalence (%)": "30.3",
+		"95% Confidence Interval": "29.3 - 31.4",
+		"Quartile": "30.0 - 33.4"
+	},
+	{
+		"State": "Mississippi",
+		"Age-Adjusted Prevalence (%)": "38.6",
+		"95% Confidence Interval": "36.7 - 40.6",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "Missouri",
+		"Age-Adjusted Prevalence (%)": "37.7",
+		"95% Confidence Interval": "36.1 - 39.3",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "Montana",
+		"Age-Adjusted Prevalence (%)": "32.9",
+		"95% Confidence Interval": "31.4 - 34.5",
+		"Quartile": "30.0 - 33.4"
+	},
+	{
+		"State": "Nebraska",
+		"Age-Adjusted Prevalence (%)": "31.5",
+		"95% Confidence Interval": "29.9 - 33.1",
+		"Quartile": "30.0 - 33.4"
+	},
+	{
+		"State": "Nevada",
+		"Age-Adjusted Prevalence (%)": "39.3",
+		"95% Confidence Interval": "36.8 - 42.0",
+		"Quartile": "38.9 - 50.2"
+	},
+	{
+		"State": "New Hampshire",
+		"Age-Adjusted Prevalence (%)": "33.8",
+		"95% Confidence Interval": "31.8 - 35.8",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "New Jersey",
+		"Age-Adjusted Prevalence (%)": "37.9",
+		"95% Confidence Interval": "36.4 - 39.5",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "New Mexico",
+		"Age-Adjusted Prevalence (%)": "34.1",
+		"95% Confidence Interval": "32.1 - 36.3",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "New York",
+		"Age-Adjusted Prevalence (%)": "38.8",
+		"95% Confidence Interval": "37.7 - 39.9",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "North Carolina",
+		"Age-Adjusted Prevalence (%)": "35",
+		"95% Confidence Interval": "33.1 - 37.0",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "North Dakota",
+		"Age-Adjusted Prevalence (%)": "34",
+		"95% Confidence Interval": "32.2 - 35.9",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "Ohio",
+		"Age-Adjusted Prevalence (%)": "39.9",
+		"95% Confidence Interval": "38.7 - 41.1",
+		"Quartile": "38.9 - 50.2"
+	},
+	{
+		"State": "Oklahoma",
+		"Age-Adjusted Prevalence (%)": "36.2",
+		"95% Confidence Interval": "34.7 - 37.8",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "Oregon",
+		"Age-Adjusted Prevalence (%)": "31.8",
+		"95% Confidence Interval": "30.2 - 33.4",
+		"Quartile": "30.0 - 33.4"
+	},
+	{
+		"State": "Pennsylvania",
+		"Age-Adjusted Prevalence (%)": "38.1",
+		"95% Confidence Interval": "36.0 - 40.2",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "Puerto Rico",
+		"Age-Adjusted Prevalence (%)": "38.9",
+		"95% Confidence Interval": "37.0 - 40.7",
+		"Quartile": "38.9 - 50.2"
+	},
+	{
+		"State": "Rhode Island",
+		"Age-Adjusted Prevalence (%)": "36.2",
+		"95% Confidence Interval": "34.4 - 38.2",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "South Carolina",
+		"Age-Adjusted Prevalence (%)": "36.6",
+		"95% Confidence Interval": "35.1 - 38.0",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "South Dakota",
+		"Age-Adjusted Prevalence (%)": "32.9",
+		"95% Confidence Interval": "29.4 - 36.5",
+		"Quartile": "30.0 - 33.4"
+	},
+	{
+		"State": "Tennessee",
+		"Age-Adjusted Prevalence (%)": "39.8",
+		"95% Confidence Interval": "38.0 - 41.7",
+		"Quartile": "38.9 - 50.2"
+	},
+	{
+		"State": "Texas",
+		"Age-Adjusted Prevalence (%)": "37.1",
+		"95% Confidence Interval": "35.6 - 38.7",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "Utah",
+		"Age-Adjusted Prevalence (%)": "34.3",
+		"95% Confidence Interval": "33.0 - 35.5",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "Vermont",
+		"Age-Adjusted Prevalence (%)": "30",
+		"95% Confidence Interval": "28.5 - 31.5",
+		"Quartile": "30.0 - 33.4"
+	},
+	{
+		"State": "Virgin Islands",
+		"Age-Adjusted Prevalence (%)": "39.9",
+		"95% Confidence Interval": "33.3 - 46.9",
+		"Quartile": "38.9 - 50.2"
+	},
+	{
+		"State": "Virginia",
+		"Age-Adjusted Prevalence (%)": "36.9",
+		"95% Confidence Interval": "35.5 - 38.4",
+		"Quartile": "36.7 - 38.8"
+	},
+	{
+		"State": "Washington",
+		"Age-Adjusted Prevalence (%)": "32.8",
+		"95% Confidence Interval": "32.0 - 33.6",
+		"Quartile": "30.0 - 33.4"
+	},
+	{
+		"State": "West Virginia",
+		"Age-Adjusted Prevalence (%)": "42.6",
+		"95% Confidence Interval": "40.7 - 44.5",
+		"Quartile": "38.9 - 50.2"
+	},
+	{
+		"State": "Wisconsin",
+		"Age-Adjusted Prevalence (%)": "33.9",
+		"95% Confidence Interval": "32.6 - 35.2",
+		"Quartile": "33.8 - 36.6"
+	},
+	{
+		"State": "Wyoming",
+		"Age-Adjusted Prevalence (%)": "33.4",
+		"95% Confidence Interval": "31.4 - 35.4",
+		"Quartile": "30.0 - 33.4"
+	}
+]

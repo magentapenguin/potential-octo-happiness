@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-white dark:bg-gray-950 text-gray-900 dark:text-white h-100">
+<html lang="en" class="bg-white dark:bg-gray-950 text-gray-900 dark:text-white h-[100%]">
 
 <head>
     <meta charset="UTF-8">
@@ -11,25 +11,23 @@
     <title>Sleep</title>
 </head>
 
-<body class="h-100">
+<body class="h-[100%] flex flex-col">
     <!-- Infographic about sleep-->
-    <main class="container p-2 m-2 mx-auto flex flex-row gap-4 not-md:gap-2 h-max not-md:flex-col">
-        <div class="flex flex-col gap-2 h-max items-stretch">
+    <main class="container p-2 mx-auto flex flex-row gap-4 not-md:gap-2 not-md:flex-col flex-auto">
+        <div class="flex flex-col gap-2 items-stretch w-[50%] not-md:w-[100%]">
             <div class="card">
                 <h1 class="card-title">Sleep is important!</h1>
                 <h3 class="card-subtitle">You need at least 7-9 hours of it!</h3>
                 <div class="card-content">
                     Children need more sleep than adults. The amount of sleep you need depends on your age.
-                    <details>
-                        <summary class="cursor-pointer">More info</summary>
-                        <ul class="list-disc text-left">
-                            <li>Infants need about 14-17 hours of sleep per day.</li>
-                            <li>Teenagers need about 8-10 hours of sleep per day.</li>
-                            <li>Adults need about 7-9 hours of sleep per day.</li>
-                        </ul>
-                    </details>
+                    <ul class="list-disc p-5">
+                        <li>Infants need about 14-17 hours of sleep per day.</li>
+                        <li>Teenagers need about 8-10 hours of sleep per day.</li>
+                        <li>Adults need about 7-9 hours of sleep per day.</li>
+                    </ul>
                 </div>
-                <a href="https://www.nhlbi.nih.gov/health/sleep/how-much-sleep" class="card-link icon-link" target="_blank">Learn more <bs-icon name="arrow-right-short" size="1.5em"></bs-icon></a>
+                <a href="https://www.nhlbi.nih.gov/health/sleep/how-much-sleep" class="card-link icon-link"
+                    target="_blank">Learn more <bs-icon name="arrow-right-short" size="1.5em"></bs-icon></a>
             </div>
             <div class="card">
                 <h1 class="card-title">If you don't sleep enough</h1>
@@ -37,15 +35,17 @@
                 <p class="card-content">
                     Then you could get dementia, heart disease, type 2 diabetes, obesity and certain cancers.
                 </p>
-                <a href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/health-risks-of-poor-sleep" class="card-link icon-link" target="_blank">Learn more <bs-icon name="arrow-right-short" size="1.5em"></bs-icon></a>
+                <a href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/health-risks-of-poor-sleep"
+                    class="card-link icon-link" target="_blank">Learn more <bs-icon name="arrow-right-short"
+                        size="1.5em"></bs-icon></a>
             </div>
         </div>
-        <div class="flex flex-col gap-2 h-max">
+        <div class="flex flex-col gap-2 items-stretch w-[50%] not-md:w-[100%]">
             <div class="card">
                 <h1 class="card-title">How do good sleep?</h1>
                 <h3 class="card-subtitle">Three tips on getting good sleep</h3>
                 <div class="card-content p-5">
-                    <ol class="list-decimal text-left">
+                    <ol class="list-decimal">
                         <li class="line-height-lg">
                             Don't take naps in the afternoon.
                         </li>
@@ -54,22 +54,36 @@
                         </li>
                         <li class="line-height-lg">
                             Avoid Caffeine.<br>
-                            <small class="text-sm text-gray-600 dark:text-gray-400">Caffeine can take 6-8 hours to wear off completely.</small>
+                            <small class="text-sm text-gray-600 dark:text-gray-400">Caffeine can take 6-8 hours to wear
+                                off completely.</small>
                         </li>
                     </ol>
                 </div>
-                <a href="https://newsinhealth.nih.gov/2021/04/good-sleep-good-health" class="card-link icon-link" target="_blank">Learn more <bs-icon name="arrow-right-short" size="1.5em"></bs-icon></a>
+                <a href="https://newsinhealth.nih.gov/2021/04/good-sleep-good-health" class="card-link icon-link"
+                    target="_blank">Learn more <bs-icon name="arrow-right-short" size="1.5em"></bs-icon></a>
             </div>
             <div class="card">
-                <h1 class="card-title"><!-- Write later-->Lorem</h1>
-                <h3 class="card-subtitle"><!-- Write later-->Ipsum</h3>
-                <p class="card-content"><!-- Write later-->Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Sed ut sapien nec odio.</p>
-                <a href="https://wikipedia.org/wiki/Lorem_ipsum" class="card-link icon-link"
-                    target="_blank"><!-- Write later-->Learn more <bs-icon name="arrow-right-short" size="1.5em"></bs-icon></a>
+                <h1 class="card-title">U.S. Sleep data (2022)</h1>
+                <canvas id="sleepData-us" class="h-48"></canvas>
+                <script src="/src/sleep-chart.ts" type="module"></script>
+                <h3 class="card-subtitle"><span class="font-condensed font-black"><output
+                            id="avg-sleep">36.8</output>%</span> of U.S. adults don't get enough sleep.</h3>
+                <p class="card-content" id="sleep-data-dynamic">
+                    <small>Enable JavaScript to see the data.</small>
+                </p>
+                <a href="https://www.cdc.gov/sleep/data-research/facts-stats/adults-sleep-facts-and-stats.html"
+                    class="card-link icon-link" target="_blank">Learn more <bs-icon name="arrow-right-short"
+                        size="1.5em"></bs-icon></a>
             </div>
         </div>
     </main>
+    <footer class="w-[100%] block text-center mb-2">
+        Made with <bs-icon name="heart-fill" size="1em" class="text-red-500"></bs-icon> by <a
+            href="https://github.com/magentapenguin" class="text-blue-500 hover:text-blue-400">magentapenguin</a>
+        and
+        <bs-icon name="stars" size="1em" class="text-indigo-800 dark:text-indigo-400"></bs-icon><a
+            href="https://github.com/features/copilot" class="text-blue-500 hover:text-blue-400">GitHub Copilot</a>
+    </footer>
 </body>
 
 </html>

@@ -11,7 +11,7 @@
     "chartjs-chart-geo": "^4.3.4",
     "tailwindcss": "^4.0.7",
     "us-atlas": "^3.0.1",
-    "vite": "^6.1.1"
+    "vite": "^6.2.5"
   },
   "type": "module"
 }
